@@ -9,8 +9,6 @@ colors = ["Red", "Green", "", "White", "Black"]
 enumerated_colors = enumerate_list(colors)
 print(enumerated_colors)
 
-
-
 def enumerate_backwards(lista):
     result=[]
     for index, color in enumerate(lista):
